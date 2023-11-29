@@ -9,6 +9,7 @@ class Product {
         ) { }
 
 
+    //Asegura que todo este validado es decir todos los tipos de las variables
     isProductReady(): boolean {
         for (const key in this) {
             switch (typeof this[key]) {
