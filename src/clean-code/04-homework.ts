@@ -88,7 +88,6 @@
 
     // workingSteps
     console.log({ workingSteps: workingSteps() }); // Cambiar los valores de la línea 31 y esperar los resultados
-    console.log({ workingSteps: workingSteps() }); // Cambiar los valores de la línea 31 y esperar los resultados
     console.log({ workingSteps: workingSteps2() }); // Cambiar los valores de la línea 31 y esperar los resultados
 
 
