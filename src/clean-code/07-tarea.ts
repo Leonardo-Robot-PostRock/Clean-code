@@ -60,7 +60,11 @@
         public html: HtmlElement;
         public attibutes: InputAttributes;
         public events: InputEvents;
-        constructor({ value, placeholder, id }: InputElementProps) {
+        constructor({ 
+            value, 
+            placeholder, 
+            id 
+        }: InputElementProps) {
             this.html = new HtmlElement({ id, type: 'input' });
             this.attibutes = new InputAttributes({ value, placeholder });
             this.events = new InputEvents();
